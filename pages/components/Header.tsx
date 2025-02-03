@@ -27,7 +27,7 @@ export default function Header() {
             </li>
           </ul>
         </nav>
-        <Link href="/components/Reservation" className="font-serif">
+        <Link href="/components/Reservation" className="font-serif hidden md:inline">
           Book a Table
         </Link>
       </div>

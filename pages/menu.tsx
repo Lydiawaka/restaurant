@@ -90,7 +90,7 @@ const menu = () => {
               {dishes.map((dish, index) => (
                 <li key={index} className="border-b border-gray-200 pb-8 last:border-b-0 last:pb-0">
                   <div className="md:flex md:items-center">
-                    <div className="md:flex-shrink-0">
+                    <div className="flex flex-col md:flex-row rounded-lg overflow-hidden">
                       <Image
                         src={dish.image || "/placeholder.svg"}
                         alt={dish.name}
@@ -99,10 +99,10 @@ const menu = () => {
                         className="h-48 w-full object-cover md:w-60 rounded-lg"
                       />
                     </div>
-                    <div className="mt-4 md:mt-0 md:ml-6">
-                      <div className="flex justify-between items-baseline">
+                    <div className="p-4 md:p-6 flex-grow">
+                      <div className="flex items-center justify-between w-full">
                         <h3 className="text-xl text-gray-100" >{dish.name}</h3>
-                        <span className="text-lg text-gray-100">{dish.price}</span>
+                        <span className="text-lg text-gray-100 ml-4 whitespace-nowrap">{dish.price}</span>
                       </div>
                       <p className="mt-2 text-gray-100">{dish.description}</p>
                     </div>
