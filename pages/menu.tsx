@@ -45,29 +45,25 @@ const menu = () => {
           name: "Rack of Lamb",
           description: "Herb-crusted New Zealand lamb with rosemary jus and ratatouille",
           price: "$44",
-          image:
-            "/images/chips.jpg",
+          image: "/images/chips.jpg",
         },
         {
           name: "Chateaubriand for Two",
           description: "Center-cut beef tenderloin with béarnaise sauce and chateau potatoes",
           price: "$85",
-          image:
-            "/images/lobster.jpg",
+          image: "/images/lobster.jpg",
         },
         {
           name: "Crème Brûlée",
           description: "Classic vanilla custard with caramelized sugar crust",
           price: "$12",
-          image:
-            "/images/chc.jpg",
+          image: "/images/chc.jpg",
         },
         {
           name: "Chocolate Soufflé",
           description: "Warm chocolate soufflé with Grand Marnier crème anglaise",
           price: "$14",
-          image:
-            "/images/pan.jpg",
+          image: "/images/pan.jpg",
         },
       ]
   return (

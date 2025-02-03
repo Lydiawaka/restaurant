@@ -7,11 +7,11 @@ export default function About() {
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-8 md:mb-0">
               <Image
-                src="https://images.unsplash.com/photo-1428515613728-6b4607e44363?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+                src="/images/chf.jpg"
                 alt="Chef preparing a dish"
-                width={300}
-                height={200}
-                className="rounded-lg shadow-lg"
+                width={400}
+                height={300}
+                className="px-6 rounded-lg shadow-lg"
               />
             </div>
             <div className="md:w-1/2 md:pl-12">
